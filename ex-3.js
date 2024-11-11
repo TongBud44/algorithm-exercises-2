@@ -1,5 +1,9 @@
 function validatePIN(pin) {
-  //Start coding here
+  if (pin.length === 4 || pin.length === 6) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 let result1 = validatePIN("1234");
